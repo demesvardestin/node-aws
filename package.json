@@ -1,0 +1,24 @@
+{
+  "name": "node-aws",
+  "version": "1.0.0",
+  "description": "a simple subscription purchase app hosted on aws",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demesvardestin/node-aws.git"
+  },
+  "author": "Demesvar Destin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demesvardestin/node-aws/issues"
+  },
+  "homepage": "https://github.com/demesvardestin/node-aws#readme",
+  "dependencies": {
+    "aws-sdk": "^2.571.0",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
