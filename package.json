@@ -18,6 +18,8 @@
   "homepage": "https://github.com/demesvardestin/node-aws#readme",
   "dependencies": {
     "aws-sdk": "^2.571.0",
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.2",
     "express": "^4.17.1",
     "request": "^2.88.0"
   }
