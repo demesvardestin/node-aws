@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Node API hosted on AWS">
+        <meta name="author" content="Demesvar Destin">
+    
+        <title>Node AWS</title>
+    </head>
+
+    <body>
+        <form action="/new_product" method="post" id="newProductForm">
+            <div class="field">
+                <label>Product Name</label>
+                <input type="text" class="form-control" name="ProductName"
+                    placeholder="Product Name">
+            </div>
+            
+            <div class="field">
+                <label>Product Category</label>
+                <input type="text" class="form-control" name="ProductCategory"
+                    placeholder="Product Category">
+            </div>
+            
+            <div class="field">
+                <label>Product Description</label>
+                <textarea type="text" class="form-control" name="ProductDetails"
+                    placeholder="Product Details"></textarea>
+            </div>
+            
+            <div class="actions">
+                <input type="submit" class="btn btn-success" value="Add Product">
+            </div>
+        </form>
+    </body>
+</html>

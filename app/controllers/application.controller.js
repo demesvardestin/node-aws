@@ -3,9 +3,9 @@ const product = require('../../app/models/product.model.js');
 
 // Create a product
 exports.create = (req, res) => {
-    let name = req.body.name;
-    let category = req.body.category;
-    let details = req.body.details;
+    let name = req.body.ProductName;
+    let category = req.body.ProductCategory;
+    let details = req.body.ProductDetails;
     
     let params = {
         TableName: product,
@@ -24,7 +24,8 @@ exports.create = (req, res) => {
                 Error: err
             });
         } else {
-            res.send(data);
+            res.render('show', { product: data });
+            // res.send(data);
         }
     });
 };

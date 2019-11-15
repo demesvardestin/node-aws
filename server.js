@@ -8,9 +8,15 @@ app.use(bodyParser.json());
 require('./routes/app.routes.js')(app);
 
 app.set('views', './app/views');
+
 app.set('view engine', 'ejs');
-app.get('/*', (req, res) => {
-    res.render('index', {  });
+
+app.get('/new', (req, res) => {
+    res.render('new');
+});
+
+app.get('/', (req, res) => {
+    res.render('index');
 });
 
 // listen for requests
