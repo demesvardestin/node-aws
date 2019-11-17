@@ -9,7 +9,8 @@ const params = {
     ],
     AttributeDefinitions: [       
         { AttributeName: "Name", AttributeType: "S" },
-        { AttributeName: "ProductCategory", AttributeType: "S" }
+        { AttributeName: "ProductCategory", AttributeType: "S" },
+        { AttributeName: "Details", AttributeType: "S"}
     ],
     ProvisionedThroughput: {       
         ReadCapacityUnits: 10, 
