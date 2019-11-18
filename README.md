@@ -1,4 +1,3 @@
-## Node-AWS
+## Node-AWS-API
 
-This is a product purchase app built with a NodeJS API, a React client, running
-on AWS.
+This is a CRUD API built with NodeJS and running on AWS.
