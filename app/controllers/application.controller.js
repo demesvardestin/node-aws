@@ -60,8 +60,6 @@ exports.create = (req, res) => {
         
         res.status(201);
     });
-    
-    res.redirect('/products');
 };
 
 // GET /products/:productDetails

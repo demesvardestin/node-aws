@@ -8,7 +8,7 @@ module.exports = (app) => {
     app.get('/products/:productDetails', applicationController.findOne);
     
     // Create a new product
-    app.post('/new_product', applicationController.create);
+    app.post('/products', applicationController.create);
     
     // Update an existing product
     app.post('/products/:productDetails', applicationController.update);
