@@ -12,4 +12,7 @@ module.exports = (app) => {
     
     // Update an existing product
     app.post('/products/:productDetails', applicationController.update);
+    
+    // Delete a product
+    app.delete('/products/:productDetails', applicationController.delete);
 };
